@@ -205,7 +205,6 @@ AlexNet(
 
 ### [VGGNet](https://github.com/linjing-lab/pytorch-tutorial/blob/main/VGGNet.ipynb)
 
-`VGGNet(CIFAR10).ipynb`
 VGGNet模型总的来说，分为VGG16和VGG19两类，区别在于模型的层数不同，以下'M'参数代表池化层，数据代表各层滤波器的数量。
 
 ```python
@@ -1225,3 +1224,7 @@ ResNet(
 ```
 
 目前准确率：89.89%
+
+## 目标检测算法
+> [学习路线](https://blog.csdn.net/han_hhh/article/details/105906058)
+### [YOLOv5s视频检测](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Video_Detection.ipynb)
