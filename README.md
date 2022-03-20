@@ -135,6 +135,10 @@ LeNet5(
 
 目前准确率：99.04%
 
+### [RNN](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Recurrent_Neural_Network.ipynb)
+
+目前准确率：94.01%
+
 ## 数据集：CIFAR10
 
 [Image Classification on CIFAR-10 Dataset](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Comparison.ipynb)
@@ -1221,5 +1225,3 @@ ResNet(
 ```
 
 目前准确率：89.89%
-
-### [RNN](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Recurrent_Neural_Network.ipynb)
