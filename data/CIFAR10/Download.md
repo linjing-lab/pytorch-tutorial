@@ -1,6 +1,6 @@
 # How to download
 
-> Origin files are two big
+> origin files are too big.
 
 ```python
 # Load downloaded dataset.

@@ -26,6 +26,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+cifar-10-python.tar.gz
+cifar-10-batches-py/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
