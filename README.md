@@ -1221,3 +1221,5 @@ ResNet(
 ```
 
 目前准确率：89.89%
+
+### [RNN](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Recurrent_Neural_Network.ipynb)
