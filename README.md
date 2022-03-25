@@ -1,5 +1,7 @@
 # Pytorch Tutorial
 
+![](https://img.shields.io/badge/Editor-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a)&emsp;![](https://img.shields.io/badge/Framework-PyTorch-informational?style=flat&logo=pytorch&logoColor=white&color=2bbc8a)&emsp;![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)&emsp;![](https://img.shields.io/badge/Tool-Git-informational?style=flat&logo=git&logoColor=white&color=2bbc8a)&emsp;![](https://img.shields.io/badge/Framework-YOLO-informational?style=flat&logo=yolo&logoColor=white&color=2bbc8a)
+
 参考书籍：《神经网络与深度学习 邱锡鹏》
 
 参考资源：
