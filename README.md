@@ -12,7 +12,7 @@ https://github.com/yunjey/pytorch-tutorial
 
 https://www.w3cschool.cn/pytorch/
 
-基础：[Pytorch Basics](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Pytorch_Basics.ipynb)、[Linear Regression](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Linear_Regression.ipynb)
+基础：[Pytorch Basics](Pytorch_Basics.ipynb)、[Linear Regression](Linear_Regression.ipynb)
 
 ## 数据集：MNIST
 
@@ -65,7 +65,7 @@ class MNISTDataset(torch.utils.data.Dataset):
 
 加载方式与第一种情况相同，但是少了download参数。
 
-### [逻辑回归模型](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Logistic_Regression.ipynb)
+### [逻辑回归模型](Logistic_Regression.ipynb)
 
 ```python
 Linear(in_features=784, out_features=10, bias=True)
@@ -73,7 +73,7 @@ Linear(in_features=784, out_features=10, bias=True)
 
 目前准确率：92.17%
 
-### [前向传播神经网络模型](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Feedforward_Neural_Network.ipynb)
+### [前向传播神经网络模型](Feedforward_Neural_Network.ipynb)
 
 ```python
 NeuralNet(
@@ -85,7 +85,7 @@ NeuralNet(
 
 目前准确率：97.16%
 
-### [简单卷积神经网络](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Convolutional_Neural_Network.ipynb)
+### [简单卷积神经网络](Convolutional_Neural_Network.ipynb)
 
 ```python
 ConvNet(
@@ -107,7 +107,7 @@ ConvNet(
 
 目前准确率：98.8%
 
-### [LeNet-5](https://github.com/linjing-lab/pytorch-tutorial/blob/main/LeNet-5.ipynb)
+### [LeNet-5](LeNet-5.ipynb)
 
 ```python
 LeNet5(
@@ -137,13 +137,13 @@ LeNet5(
 
 目前准确率：99.04%
 
-### [RNN](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Recurrent_Neural_Network.ipynb)
+### [RNN](Recurrent_Neural_Network.ipynb)
 
 目前准确率：94.01%
 
 ## 数据集：CIFAR10
 
-[Image Classification on CIFAR-10 Dataset](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Comparison.ipynb)
+[Image Classification on CIFAR-10 Dataset](Comparison.ipynb)
 
 ```python
 # Load downloaded dataset.(download=False)
@@ -151,7 +151,7 @@ train_dataset = torchvision.datasets.CIFAR10('data/CIFAR/', train=True, download
 test_dataset = torchvision.datasets.CIFAR10('data/CIFAR/', train=False, download=True, transform=transform_test)
 ```
 
-### [AlexNet](https://github.com/linjing-lab/pytorch-tutorial/blob/main/AlexNet.ipynb)
+### [AlexNet](AlexNet.ipynb)
 
 ```python
 AlexNet(
@@ -205,7 +205,7 @@ AlexNet(
 
 目前准确率：86.1%
 
-### [VGGNet](https://github.com/linjing-lab/pytorch-tutorial/blob/main/VGGNet.ipynb)
+### [VGGNet](VGGNet.ipynb)
 
 VGGNet模型总的来说，分为VGG16和VGG19两类，区别在于模型的层数不同，以下'M'参数代表池化层，数据代表各层滤波器的数量。
 
@@ -340,7 +340,7 @@ VGGNet(
 
 目前准确率：91.99%
 
-### [GoogLeNet](https://github.com/linjing-lab/pytorch-tutorial/blob/main/GoogLeNet.ipynb)
+### [GoogLeNet](GoogLeNet.ipynb)
 
 ```python
 GoogLeNet(num_classes, aux_logits, init_weights)
@@ -1137,7 +1137,7 @@ GoogLeNet(
 
 目前准确率：86.69%
 
-### [ResNet](https://github.com/linjing-lab/pytorch-tutorial/blob/main/ResNet.ipynb)
+### [ResNet](ResNet.ipynb)
 
 ```python
 ResNet(
@@ -1229,4 +1229,4 @@ ResNet(
 
 ## 目标检测算法
 > [学习路线](https://blog.csdn.net/han_hhh/article/details/105906058)
-### [YOLOv5s视频检测](https://github.com/linjing-lab/pytorch-tutorial/blob/main/Video_Detection.ipynb)
+### [YOLOv5s视频检测](Video_Detection.ipynb)
