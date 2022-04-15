@@ -6,11 +6,9 @@
 
 参考资源：
 
-https://github.com/yunjey/pytorch-tutorial
+[深度学习实战](https://github.com/Jack-Cherish/Deep-Learning)
 
-[Jack-Cherish/Deep-Learning: 深度学习实战：手写数字识别、Discuz验证码识别、垃圾分类、语义分割 (github.com)](https://github.com/Jack-Cherish/Deep-Learning)
-
-https://www.w3cschool.cn/pytorch/
+[PyTorch教程](https://www.w3cschool.cn/pytorch/)
 
 基础：[Pytorch Basics](Pytorch_Basics.ipynb)、[Linear Regression](Linear_Regression.ipynb)
 
