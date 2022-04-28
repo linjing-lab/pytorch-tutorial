@@ -129,11 +129,11 @@ GoogLeNet(num_classes, aux_logits, init_weights)
 
 如果开启辅助分类器，那么`aux_logits=True`；如果不开启，那么`aux_logits=False`。
 
-如果不开启辅助分类器：
+`aux_logits=False`：
 
 目前准确率：85.88%
 
-如果开启辅助分类器：
+`aux_logits=True`：
 
 目前准确率：86.69%
 
