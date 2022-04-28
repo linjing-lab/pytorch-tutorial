@@ -5,10 +5,10 @@
 </div>
 
 <div align="center">
-    <img src="https://img.shields.io/badge/Editor-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a">,
-    <img src="https://img.shields.io/badge/Framework-PyTorch-informational?style=flat&logo=pytorch&logoColor=white&color=2bbc8a">,
-    <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a">,
-    <img src="https://img.shields.io/badge/Framework-YOLO-informational?style=flat&logo=yolo&logoColor=white&color=2bbc8a">,
+    <img src="https://img.shields.io/badge/Editor-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a">
+    <img src="https://img.shields.io/badge/Framework-PyTorch-informational?style=flat&logo=pytorch&logoColor=white&color=2bbc8a">
+    <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a">
+    <img src="https://img.shields.io/badge/Framework-YOLO-informational?style=flat&logo=yolo&logoColor=white&color=2bbc8a">
 </div>
 
 ## 图像分类
