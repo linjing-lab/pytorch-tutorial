@@ -91,7 +91,7 @@ class MNISTDataset(torch.utils.data.Dataset):
 
 ### 数据集CIFAR10
 
-[Image Classification on CIFAR-10 Dataset](./image_classification/comparison.ipynb)
+[comparsion](./image_classification/comparison.ipynb)
 
 ```python
 # Load downloaded dataset.(download=False)
