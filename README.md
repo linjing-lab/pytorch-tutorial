@@ -1,4 +1,4 @@
-# pytorch_tutorial
+# pytorch_tutorial🔖
 
 <div align="center">
     <img src="./asserts/logo.jpg">
