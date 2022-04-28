@@ -89,7 +89,7 @@ class MNISTDataset(torch.utils.data.Dataset):
 
 目前准确率：94.01%
 
-### 数据集CIFAR10
+### CIFAR10数据集
 
 [comparsion](./image_classification/comparison.ipynb)
 
