@@ -149,7 +149,7 @@ GoogLeNet(num_classes, aux_logits, init_weights)
 
 ## 参考资料
 
-* 《神经网络与深度学习 邱锡鹏》
+* 神经网络与深度学习：邱锡鹏著
 * [深度学习实战](https://github.com/Jack-Cherish/Deep-Learning)
 * [PyTorch教程](https://www.w3cschool.cn/pytorch/)
 
