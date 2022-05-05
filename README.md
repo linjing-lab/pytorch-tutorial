@@ -6,7 +6,7 @@
     </a>
 </p>
 
-## 图像分类
+## [图像分类](./image_classification)
 
 学习图像分类前的准备：
 
@@ -82,7 +82,7 @@ class MNISTDataset(torch.utils.data.Dataset):
 
 #### [RNN](./image_classification/recurrent_neural_network.ipynb)
 
-目前准确率：94.01%
+目前准确率：97.01%
 
 ### CIFAR10数据集
 
@@ -122,31 +122,24 @@ cfg = {
 GoogLeNet(num_classes, aux_logits, init_weights)
 ```
 
-如果开启辅助分类器，那么`aux_logits=True`；如果不开启，那么`aux_logits=False`。
-
-`aux_logits=False`：
-
-目前准确率：85.88%
-
-`aux_logits=True`：
-
-目前准确率：86.69%
+如果开启辅助分类器，那么`aux_logits=True`，目前准确率：86.99%；如果不开启，那么`aux_logits=False`，目前准确率：85.88%。
 
 #### [ResNet](./image_classification/resnet.ipynb)
 
 目前准确率：89.89%
 
-## 目标检测
+## [目标检测](./object_detection)
 
-> [学习路线](https://blog.csdn.net/han_hhh/article/details/105906058)
+### 一阶段算法
 
-### [YOLOv5s视频检测](./object_detection/video_detection.ipynb)
+#### [YOLOv5s](./object_detection/video_detection.ipynb)
+
+### 二阶段算法
 
 ## 参考资料
 
 * 神经网络与深度学习：邱锡鹏著
-* [深度学习实战](https://github.com/Jack-Cherish/Deep-Learning)
-* [PyTorch教程](https://www.w3cschool.cn/pytorch/)
+* [Jack-Cherish/Deep-Learning](https://github.com/Jack-Cherish/Deep-Learning)
 
 ## LICENSE
 [MIT LICENSE](./LICENSE)
