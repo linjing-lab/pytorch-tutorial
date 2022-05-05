@@ -16,7 +16,7 @@
 |[线性回归](./image_classification/linear_regression.ipynb)|/|/||
 |[逻辑回归](./image_classification/logistic_regression.ipynb)|MNIST|92.17%||
 |[前馈神经网络](./image_classification/feedforward_neural_network.ipynb)|MNIST|97.16%|前向传播|
-|[简单卷积神经网络](./image_classification/convolutional_neural_network.ipynb)|MNIST|98.8%|第一个CNN模型|
+|[简单卷积神经网络](./image_classification/convolutional_neural_network.ipynb)|MNIST|98.8%||
 |[LeNet-5](./image_classification/lenet-5.ipynb)|MNIST|99.04%|用于银行柜机手写数字识别的CNN模型|
 |[循环神经网络](./image_classification/recurrent_neural_network.ipynb)|MNIST|97.01%|用于处理和预测时序数据|
 |[AlexNet](./image_classification/alexnet.ipynb)|CIFAR10|86.1%|ImageNet比赛提出一个5层CNN模型|
