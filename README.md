@@ -8,115 +8,35 @@
 
 ## [图像分类](./image_classification)
 
-学习图像分类前的准备：
+<div align="center">
 
-* [pytorch基础](./image_classification/pytorch_basics.ipynb)
-* [线性回归](./image_classification/linear_regression.ipynb)
+|名称|数据集|准确率|解释|
+|--|--|--|--|
+|[PyTorch基础](./image_classification/pytorch_basics.ipynb)|/|/|PyTorch语法与概念|
+|[线性回归](./image_classification/linear_regression.ipynb)|/|/||
+|[逻辑回归](./image_classification/logistic_regression.ipynb)|MNIST|92.17%||
+|[前馈神经网络](./image_classification/feedforward_neural_network.ipynb)|MNIST|97.16%|前向传播|
+|[简单卷积神经网络](./image_classification/convolutional_neural_network.ipynb)|MNIST|98.8%|第一个CNN模型|
+|[LeNet-5](./image_classification/lenet-5.ipynb)|MNIST|99.04%|用于银行柜机手写数字识别的CNN模型|
+|[循环神经网络](./image_classification/recurrent_neural_network.ipynb)|MNIST|97.01%|用于处理和预测时序数据|
+|[AlexNet](./image_classification/alexnet.ipynb)|CIFAR10|86.1%|ImageNet比赛提出一个5层CNN模型|
+|[VGGNet](./image_classification/vggnet.ipynb)|CIFAR10|*VGG-16*: 92.23%<br />*VGG-19*: 91.99%||
+|[GoogLeNet](./image_classification/googlenet.ipynb)|CIFAR10|aux_logits=True: 86.99%<br />aux_logits=False: 85.88%|首次引入Inception结构|
+|[ResNet](./image_classification/resnet.ipynb)|CIFAR10|89.89%|引入残差块|
+|[TensorBoard](./image_classification/comparison.ipynb)|CIFAR10|/|多个CNN模型的对比|
 
-### MNIST
-
-如果有人数据集能够无障碍的下载MNIST数据集，那么：
-
-```python
-# MNIST dataset (images and labels)
-train_dataset = torchvision.datasets.MNIST(root='data/MNIST', train=True, transform=torchvision.transforms.ToTensor(), download=True)
-test_dataset = torchvision.datasets.MNIST(root='data/MNIST', train=False, transform=torchvision.transfroms.ToTensor(), download=True)
-```
-
-如果不能，先从MNIST数据集官网上把数据集下载下来, 存在'data/MNIST/'中（data与项目文件同级），再使用这个数据集加载类进行操作。
-
-```python
-import numpy as np
-import gzip
-import os
-class MNISTDataset(torch.utils.data.Dataset):
-    def __init__(self, root, train=True, transform=None):
-        # The file name prefix is obtained according to whether it is a training set or not.
-        self.file_pre = 'train' if train == True else 't10k'
-        self.transform = transform
-
-        # Generate the image and label file path of the corresponding dataset.
-        self.label_path = os.path.join(root, '%s-labels-idx1-ubyte.gz' % self.file_pre)
-        self.image_path = os.path.join(root, '%s-images-idx3-ubyte.gz' % self.file_pre)
-
-        # Read file data and return pictures and labels.
-        self.images, self.labels = self.__read_data__(self.image_path, self.label_path)
-
-    def __read_data__(self, image_path, label_path):
-        # Data set reading.
-        with gzip.open(label_path, 'rb') as lbpath:
-            labels = np.frombuffer(lbpath.read(), np.uint8, offset=8)
-        with gzip.open(image_path, 'rb') as imgpath:
-            images = np.frombuffer(imgpath.read(), np.uint8, offset=16).reshape(len(labels), 28, 28)
-        return images, labels
-
-    def __getitem__(self, index):
-        image, label = self.images[index], int(self.labels[index])
-
-        # If you need to convert to tensor, use tansform.
-        if self.transform is not None:
-            image = self.transform(np.array(image))  # Avoid bug: use np.array
-        return image, label
-
-    def __len__(self):
-        return len(self.labels)
-```
-
-加载方式与第一种情况相同，但是少了download参数。
-
-#### [逻辑回归模型](./image_classification/logistic_regression.ipynb)
-
-目前准确率：92.17%
-
-#### [前向传播神经网络模型](./image_classification/feedforward_neural_network.ipynb)
-
-目前准确率：97.16%
-
-#### [简单卷积神经网络](./image_classification/convolutional_neural_network.ipynb)
-
-目前准确率：98.8%
-
-#### [LeNet-5](./image_classification/lenet-5.ipynb)
-
-目前准确率：99.04%
-
-#### [RNN](./image_classification/recurrent_neural_network.ipynb)
-
-目前准确率：97.01%
-
-### [CIFAR10](./image_classification/comparison.ipynb)
-
-#### [AlexNet](./image_classification/alexnet.ipynb)
-
-目前准确率：86.1%
-
-#### [VGGNet](./image_classification/vggnet.ipynb)
-
-*VGG-16*
-
-目前准确率：92.23%
-
-*VGG-19*
-
-目前准确率：91.99%
-
-#### [GoogLeNet](./image_classification/googlenet.ipynb)
-
-如果开启辅助分类器，那么`aux_logits=True`，目前准确率：86.99%
-
-如果不开启辅助分类器，那么`aux_logits=False`，目前准确率：85.88%
-
-#### [ResNet](./image_classification/resnet.ipynb)
-
-目前准确率：89.89%
+</div>
 
 ## [目标检测](./object_detection)
 
-### 一阶段算法
+<div align="center">
 
-#### [YOLOv5s](./object_detection/video_detection.ipynb)
+|名称|数据集|解释|
+|--|--|--|--|
+|[YOLOv5s](./object_detection/video_detection.ipynb)|行驶记录仪视频|一阶段算法|
+|...|...|...|
 
-### 二阶段算法
+</div>
 
 ## 参考资料
 
