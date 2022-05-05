@@ -1,7 +1,9 @@
 # pytorch_tutorial🔖
 
-<p align="center">
-    <img src="./asserts/logo.jpg">
+<p align='center'>
+    <a href="https://pytorch.org/"> 
+        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch"/> 
+    </a>
 </p>
 
 <p align='center'>
