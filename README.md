@@ -13,7 +13,7 @@
 * [pytorch基础](./image_classification/pytorch_basics.ipynb)
 * [线性回归](./image_classification/linear_regression.ipynb)
 
-### MNIST数据集
+### MNIST
 
 如果有人数据集能够无障碍的下载MNIST数据集，那么：
 
@@ -84,15 +84,7 @@ class MNISTDataset(torch.utils.data.Dataset):
 
 目前准确率：97.01%
 
-### CIFAR10数据集
-
-[comparsion](./image_classification/comparison.ipynb)
-
-```python
-# Load downloaded dataset.(download=False)
-train_dataset = torchvision.datasets.CIFAR10('data/CIFAR/', train=True, download=True, transform=transform_train)
-test_dataset = torchvision.datasets.CIFAR10('data/CIFAR/', train=False, download=True, transform=transform_test)
-```
+### [CIFAR10](./image_classification/comparison.ipynb)
 
 #### [AlexNet](./image_classification/alexnet.ipynb)
 
