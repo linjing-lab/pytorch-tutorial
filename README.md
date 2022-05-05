@@ -2,7 +2,7 @@
 
 <p align='center'>
     <a href="https://pytorch.org/"> 
-        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="PyTorch"/> 
+        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"> 
     </a>
 </p>
 
