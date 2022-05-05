@@ -92,29 +92,19 @@ class MNISTDataset(torch.utils.data.Dataset):
 
 #### [VGGNet](./image_classification/vggnet.ipynb)
 
-VGGNet模型总的来说，分为VGG16和VGG19两类，区别在于模型的层数不同，以下'M'参数代表池化层，数据代表各层滤波器的数量。
-
-```python
-# Define VGG-16 and VGG-19.
-cfg = {
-    'VGG-16': [64, 64, 'M', 128, 128, 'M', 256, 256, 256, 'M', 512, 512, 512, 'M', 512, 512, 512, 'M'], 
-    'VGG-19': [64, 64, 'M', 128, 128, 'M', 256, 256, 256, 256, 'M', 512, 512, 512, 512, 'M', 512, 512, 512, 512,'M']
-}
-```
+*VGG-16*
 
 目前准确率：92.23%
 
-`VGG-19`
+*VGG-19*
 
 目前准确率：91.99%
 
 #### [GoogLeNet](./image_classification/googlenet.ipynb)
 
-```python
-GoogLeNet(num_classes, aux_logits, init_weights)
-```
+如果开启辅助分类器，那么`aux_logits=True`，目前准确率：86.99%
 
-如果开启辅助分类器，那么`aux_logits=True`，目前准确率：86.99%；如果不开启，那么`aux_logits=False`，目前准确率：85.88%。
+如果不开启辅助分类器，那么`aux_logits=False`，目前准确率：85.88%
 
 #### [ResNet](./image_classification/resnet.ipynb)
 
