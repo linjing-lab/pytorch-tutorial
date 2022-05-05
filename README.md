@@ -6,18 +6,6 @@
     </a>
 </p>
 
-<p align='center'>
-    <a href='https://jupyter.org/'>
-        <img src="https://img.shields.io/badge/Editor-Jupyter-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a"> 
-    </a>
-    <a href="https://pytorch.org/"> 
-        <img src="https://img.shields.io/badge/Framework-PyTorch-informational?style=flat&logo=pytorch&logoColor=white&color=2bbc8a"> 
-    </a>
-    <a href='https://www.python.org/'>
-        <img src="https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a">
-    </a>
-</p>
-
 ## 图像分类
 
 学习图像分类前的准备：
