@@ -32,7 +32,7 @@
 <div align="center">
 
 |名称|数据集|解释|
-|--|--|--|--|
+|--|--|--|
 |[YOLOv5s](./object_detection/video_detection.ipynb)|行驶记录仪视频|一阶段算法|
 |...|...|...|
 
