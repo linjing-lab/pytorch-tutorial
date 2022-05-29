@@ -1,4 +1,4 @@
-# pytorch_tutorial🔖
+# pytorch-tutorial🔖
 
 <p align='center'>
     <a href="https://pytorch.org/"> 
