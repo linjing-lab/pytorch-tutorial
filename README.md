@@ -1,7 +1,7 @@
 # pytorch-tutorial🔖
 
 <p align='center'>
-    <a href="https://pytorch.org/"> 
+    <a href="https://github.com/pytorch"> 
         <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg"> 
     </a>
 </p>
@@ -41,6 +41,7 @@
 ## 参考资料
 
 * 神经网络与深度学习：邱锡鹏著
+* [pytorch/tutorials](https://github.com/pytorch/tutorials)
 * [Jack-Cherish/Deep-Learning](https://github.com/Jack-Cherish/Deep-Learning)
 
 ## LICENSE
